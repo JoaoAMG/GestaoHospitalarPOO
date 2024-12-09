@@ -10,8 +10,8 @@ public class DAOMedico {
     
     private List<Medico> databaseMedico = new ArrayList();
     
-    public void menuDAOPaciente(){
-        System.out.println("Menu de  medicos"
+    public void menuDAOMedico(){
+        System.out.println("\nMenu de  medicos"
                 + "\n1-Inserir Medico no sistema"
                 + "\n2- Verificar Medico por ID no sistema"
                 + "\n3- Modificar Medico por ID no sistema"
@@ -145,7 +145,7 @@ public class DAOMedico {
     }
     public boolean delete(){
          Scanner sc = new Scanner(System.in);
-        System.out.println("\nInsira o ID do Usuario que deseja remover:");
+        System.out.println("\nInsira o ID do Medico que deseja remover do sistema: ");
         int atid = sc.nextInt();
         Medico p = readconv(atid);     
         if(p!= null){

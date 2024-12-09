@@ -3,14 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/gestaohospitalar/Paciente.java</file>
-            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/gestaohospitalar/Endereco.java</file>
-            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/dao/DAOPaciente.java</file>
             <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/gestaohospitalar/GestaoHospitalar.java</file>
-            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/gestaohospitalar/Medico.java</file>
+            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/dao/DAOPaciente.java</file>
             <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/dao/DAOAtendimento.java</file>
             <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/dao/DAOMedico.java</file>
-            <file>file:/C:/Users/Pichau/Documents/NetBeansProjects/GestaoHospitalar/src/gestaohospitalar/Atendimento.java</file>
         </group>
     </open-files>
 </project-private>

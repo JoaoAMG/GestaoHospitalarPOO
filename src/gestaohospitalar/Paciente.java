@@ -48,7 +48,7 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "Paciente\nid: " + id + "\nnome: " + nome + "\nidade: " + idade + "\n" + endereco;
+        return "\nPaciente\nid do paciente: " + id + "\nnome do paciente: " + nome + "\nidade do paciente: " + idade + "\n" + endereco;
     }
     
     

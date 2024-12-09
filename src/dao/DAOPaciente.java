@@ -11,7 +11,7 @@ public class DAOPaciente {
     private List<Paciente> databasePaciente = new ArrayList();
     
     public void menuDAOPaciente(){
-        System.out.println("Menu de  Pacientes"
+        System.out.println("\nMenu de  Pacientes"
                 + "\n1-Inserir Paciente no sistema"
                 + "\n2- Verificar Paciente por ID no sistema"
                 + "\n3- Modificar Paciente por ID no sistema"
@@ -114,16 +114,16 @@ public class DAOPaciente {
     public String listAll(){
         String report="";
         for(Paciente p:databasePaciente){
-            report+= "Id: "+ p.getId()+"\n";
-            report+= "Nome: "+ p.getNome()+"\n";
-            report+= "Idade: "+ p.getIdade()+"\n";
+            report+= "Id do Paciente: "+ p.getId()+"\n";
+            report+= "Nome do paciente: "+ p.getNome()+"\n";
+            report+= "Idade do paciente: "+ p.getIdade()+"\n";
             report+= p.getEndereco()+"\n\n";
         }
         return report;
     }
     public boolean delete(){
          Scanner sc = new Scanner(System.in);
-        System.out.println("\nInsira o ID do Usuario que deseja remover:");
+        System.out.println("\nInsira o ID do Paciente que deseja remover do Sistema: ");
         int atid = sc.nextInt();
         Paciente p = readconv(atid);     
         if(p!= null){

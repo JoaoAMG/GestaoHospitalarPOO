@@ -66,7 +66,7 @@ public class Medico {
 
     @Override
     public String toString() {
-        return "Medico:\nId: " + id + "\nNome: " + nome + "\nIdade: " + idade + "\nCRM: " + crm + "\nendereco: " + endereco;
+        return "\nMedico:\nId do Medico: " + id + "\nNome do Medico: " + nome + "\nIdade do Medico: " + idade + "\nCRM: " + crm + "\n" + endereco;
     }
     
     
